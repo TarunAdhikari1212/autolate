@@ -1,0 +1,9 @@
+[package]
+name = "autolate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-config = { version = "1.1.7", features = ["behavior-version-latest"] }
+aws-sdk-translate = "1.36.0"
+tokio = { version = "1", features = ["full"] }
